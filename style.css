@@ -6,19 +6,13 @@
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
-
-/* Footer */
-.contain:link,
-a:visited,
-a:hover,
-a:active {
-    text-decoration: none
+/*WHAT OUR CLIENTS SAY*/
+.client{
+    background-color: #e6fff3;
 }
-/* Footer */
-
+/*WHAT OUR CLIENTS SAY*/
 
 /* OUR RECENT BLOGS & ACTIVITY */
-
 .contain {
     position: relative;
     width: 50%;
@@ -56,6 +50,14 @@ a:active {
     transform: translate(-50%, -50%);
     white-space: nowrap;
 }
-
-
 /* OUR RECENT BLOGS & ACTIVITY */
+/* Footer */
+.contain:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none
+}
+/* Footer */
+
+
