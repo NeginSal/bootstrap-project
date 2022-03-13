@@ -1,11 +1,61 @@
 .dropdown:hover>.dropdown-menu {
     display: block;
-  }
-  
-  .dropdown>.dropdown-toggle:active {
-    /*Without this, clicking will make it sticky*/
-      pointer-events: none;
-  }
-  a:link,a:visited,a:hover,a:active{
-  text-decoration :none
 }
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+/* Footer */
+.contain:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none
+}
+/* Footer */
+
+
+/* OUR RECENT BLOGS & ACTIVITY */
+
+.contain {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+
+.contain:hover .overlay {
+    width: 100%;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+
+/* OUR RECENT BLOGS & ACTIVITY */
