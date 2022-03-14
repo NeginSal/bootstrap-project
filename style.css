@@ -6,8 +6,161 @@
     /*Without this, clicking will make it sticky*/
     pointer-events: none;
 }
-/*CHECK OUR AWESOME WORK*/
-/*CHECK OUR AWESOME WORK*/
+/*CARD*/
+#contain3 {
+    position: relative;
+    border-radius: 15px;
+  }
+  
+  #image3 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #contain4 {
+    position: relative;
+    border-radius: 15px;
+  }
+  
+  #image4 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #contain5 {
+    position: relative;
+    border-radius: 15px;
+  }
+  
+  #image5 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #contain6 {
+    position: relative;
+    border-radius: 15px;
+  }
+  
+  #image6 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #contain7 {
+    position: relative;
+    border-radius: 15px;
+  }
+  #image7 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #contain8 {
+    position: relative;
+    border-radius: 15px;
+  }
+  #image8 {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  #overlay3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0066ff;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+
+  #overlay4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff4d4d;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  #overlay5 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #66ffff;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  #overlay6 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffb366;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  #overlay7 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #bf80ff;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  #overlay8 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #1aa3ff;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+    
+  #contain3:hover #overlay3 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  #contain4:hover #overlay4 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  #contain5:hover #overlay5 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  #contain6:hover #overlay6 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  #contain7:hover #overlay7 {
+    width: 100%;
+    border-radius: 15px;
+  }
+  #contain8:hover #overlay8 {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+/*CARD*/
 
 
 /*OUR EXPERT TEAM*/
